@@ -1,0 +1,15 @@
+spring:
+    application:
+        name: zuul-api-gateway-server
+
+server:
+    port: ${port:8765}
+
+zuul:
+    routes:
+        ticket-enquiry: /ticket-enquiry/**
+        url: http://localhost:8700/
+
+eureka:
+    client:
+        fetch-registry: true

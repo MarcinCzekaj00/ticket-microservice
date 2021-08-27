@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ticket-service
+  data:
+    mongodb:
+      database: ticket
+      host: localhost
+      port: 27017
+
+server:
+  port: ${port:8600}

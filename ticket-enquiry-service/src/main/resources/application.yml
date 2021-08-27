@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: ticket-enquiry-service
+
+server:
+  port: ${port:8700}
