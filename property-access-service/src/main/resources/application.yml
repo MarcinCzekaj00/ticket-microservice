@@ -1,7 +1,9 @@
 spring:
   application:
     name: property-access-service
-
+  profiles:
+    active: default
+    
 server:
   port: ${port:8000}
 
