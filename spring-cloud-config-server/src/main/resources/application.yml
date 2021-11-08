@@ -5,7 +5,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/MarcinCzekaj00/ticket-microservice/tree/main/environment-variable
+          username: MarcinCzekaj00
+          password: ####################
+          uri: https://github.com/MarcinCzekaj00/environment-variable.git
 
 server:
   port: ${port:8888}
